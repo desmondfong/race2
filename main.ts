@@ -7,7 +7,7 @@ input.onButtonPressed(Button.B, function () {
 COZIR.calibrateCo2()
 let strip = neopixel.create(DigitalPin.P3, 24, NeoPixelMode.RGB)
 basic.showString("Hello!")
-basic.showString("Press A to know the co2 and press B to know the temperature.The lights will show you the weather is it go to go out.")
+basic.showString("Press A to know the co2 and press B to know the temperature.")
 radio.setGroup(1)
 basic.forever(function () {
     radio.setGroup(1)
